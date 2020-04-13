@@ -7,6 +7,6 @@
 ## .md file
 Exercise problem
 ## .c file
-MY idea + C grammar
+MY idea + C language
 ## Else
 If there is better answer please comment me to see your code for anyone learning C language.
