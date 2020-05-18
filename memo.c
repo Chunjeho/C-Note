@@ -17,7 +17,7 @@ int main(){
 	int i = 0;
 	char _memo[3000]; // You can write 3000 letters
 	char _filename[100]; //Filename
-	char _dir[143] = ""; // Directory you want to save file
+	char _dir[200] = ""; // Directory you want to save file
 	FILE *fptr;
 	
 	printf("File name: ");
