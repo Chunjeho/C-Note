@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h> // for using malloc without Warning
+#include <stdlib.h> // for using malloc without Warning; give malloc()'s return type information to compiler
 
 int main(){
 	
