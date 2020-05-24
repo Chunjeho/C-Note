@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-void PiFraction(int* pi, int n){
+void PiFraction(int* p, int n){
 	
 	int i = 0;
 	
-	for(i = 0;i < n;i++){
-		//printf("%d", pi[i]);
-		printf("%d", *(pi+i));
+	for(i = 0;i < n;i++){// p[i] does exactly same that *(p+i) does
+		printf("%d\n", p[i]);
+		printf("%d", *(p+i));
 	}
 }
 
