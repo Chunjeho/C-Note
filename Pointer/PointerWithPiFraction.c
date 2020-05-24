@@ -20,22 +20,5 @@ int main(){
 	
 	PiFraction(pi, input);
 	
-	/*switch(input){
-		
-	case 1:	
-		printf("%dst decimal point of pi is %d\n", input, *(pi+input-1));
-		break;
-	case 2:
-		printf("%dnd decimal point of pi is %d\n", input, *(pi+input-1));
-		break;
-	case 3:
-		printf("%drd decimal point of pi is %d\n", input, *(pi+input-1));
-		break;
-	default:
-		printf("%dth decimal point of pi is %d\n", input, *(pi+input-1));
-		break;
-		
-	}*/
-	
 	return 0;
 }
