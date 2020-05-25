@@ -22,10 +22,10 @@ int main(){
 	printf("e: %lf\n", E);
 	printf("sum: %d\n", num);
 	
-#ifdef DEBUG //if DEBUG is predefined, execute below code
+#ifdef DEBUG //if DEBUG is predefined, execute code below until #endif
 	printf("Debug-mode: yes\n");
 #else
-	printf("Debug-mode: no\n"); //else execute below code
+	printf("Debug-mode: no\n"); //else execute code below
 #endif //end
 	
 #if OS == 0 //we can use #if as if-statement in C
