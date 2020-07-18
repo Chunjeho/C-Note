@@ -1,3 +1,7 @@
+/* 
+	0 is motion detector. A range of the detector is 8 blocks surrrounded in 0.
+	Find the shortest distance avoiding motion detector. (You can go by up, down, left, right)
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -159,7 +163,7 @@ int main(){
 			}
 		}
 		
-		/* Cycle */
+		/* Cycle (Accumulate when an attribute is 1) */
 		for(j=0;j<10;j++){
 			if(Sensor[S[k]][j] == 1){
 				Sensor[S[k]][j] = j+1;
@@ -191,7 +195,7 @@ int main(){
 			}
 		}
 		
-		/* While start */
+		/* While start (Fill rest of a path)*/
 		
 		while(_boolFin < 10){
 			
@@ -226,15 +230,8 @@ int main(){
 			}
 		}
 		/* While End */
-		/* End */
 		
-		/*printf("\n _Sensor\n");
-		for(i=0;i<10;i++){
-			for(j=0;j<10;j++){
-				printf(" %d ", _Sensor[i][j]);
-			}
-			printf("\n");
-		}*/
+		/* End */
 		
 		printf("\n #%d \n", S[k]);
 		for(i=0;i<10;i++){
@@ -242,7 +239,7 @@ int main(){
 				printf(" %d ", Sensor[i][j]);
 			}
 			printf("\n");
-		}
+		} //print all possiblity
 		
 		for(i=0;i<10;i++){
 			if(Sensor[i][9] != 0 && Sensor[i][9] != 1 && i == 0 && k == 0){
