@@ -1,6 +1,6 @@
 /* 
 	0 is motion detector. A range of the detector is 8 blocks surrrounded in 0.
-	Find the shortest distance avoiding motion detector. (You can go by up, down, left, right)
+	Find the shortest distance avoiding motion detector. (You can go by up, down, left, right from left-end to right-end)
 */
 #include <stdio.h>
 #include <stdlib.h>
